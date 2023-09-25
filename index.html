@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CyberSecurity</title>
+  <style>
+    body {
+  background-color: #F9F9F9;
+}
+h1 {
+  text-align: center;
+}
+h4 {
+  border-bottom: 1px solid rgb(194, 187, 187);/*for creating border only at the bottom of the h4 element*/
+
+}
+header {
+  display:flex;/*flex can be used to lay a collection of items in one direction*/
+  justify-content: space-between;/*This used to diplay flex elements with space between them*/
+  position: fixed;/*The fixed position fixes the position of an element in a website even when the page is scrolling*/
+  right:0;
+  left: 0;
+  top: 0;
+  height: 30px;
+  padding: 20px 30px;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(194, 187, 187);
+  border-bottom-style: solid;
+  background-color: white;
+  z-index: 100;/*elements with higher z-index will always appear on top of other elements*/
+}
+.definition-section {
+  display: inline-block;
+  margin-left:10px;
+  margin-right:10px;
+  margin-top: 50px;
+  position: relative;
+  top: 0px;
+}
+.img-container {
+  position:relative;
+  top: 110px;
+  margin-bottom: 110px;
+  margin-left: 100px;
+  display: inline-block;
+}
+#mainimage {
+  width: 700px;
+}
+.Importance-section {
+  border-width: 1px;
+  border-color: rgb(194, 187, 187);
+  border-style: solid;
+  background-color: white;
+  margin: 20px 10px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.1);
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+.Importance-heading {
+  margin-left: 10px;
+}
+.Importance-content-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.Importance-content {
+  border-width: 1px;
+  border-color: rgb(194, 187, 187);
+  border-style: solid;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding: 20px 10px;
+}
+.websiteimage {
+  display:block;
+  width: 600px;
+}
+.Contact-us{
+  display: inline-block;
+text-align: center;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 600px; 
+
+      }
+td {
+    border: 1px solid black;
+    padding: 16px;
+    font-size: 24px;
+      }
+th {
+    border: 1px solid black;
+    font-size: 24px;
+    padding: 16px;
+      }
+caption {
+  font-weight: bold;
+  font-size: large;
+}
+table {
+  margin-bottom: 20px;
+}
+  </style>
+</head>
+<body>
+  <header><!--It contains navigation bar or menu bar-->
+      <div class="menu-container">
+        <h4>Home</h4>
+        </div>
+        <div class="menu-container">
+          <h4>Solutions</h4>
+        </div>
+        <div class="menu-container">
+          <h4>Services</h4>
+        </div>
+        <div class="menu-container">
+          <h4>Contact us</h4>
+        </div>
+  </header>
+
+  <main><!--This element contains main contents-->
+    <div class="definition-container">
+      <div class="definition-section">
+        <h2>Cyber security definition</h2>
+        <p>Cyber security is the application of technologies, processes,
+           and controls<br> to protect systems, networks, programs, devices and data from cyber attacks.
+  
+          <p>It aims to reduce the risk of cyber attacks and protect against the unauthorised<br> exploitation of systems, networks, and technologies.</p>
+      </div>
+      <div class="img-container">
+        <img id="mainimage" src="GettyImages-914788014-cybersecurity-vs-data-privacy-1-1200-x-630-min.jpg" alt="cybersecurity">
+      </div>
+    </div>
+
+    <div class="Importance-section"> <!--This is the div that contains the information about importance of cybersecurity.I have used nested div here-->
+      <h2 class="Importance-heading">Why is cyber security important?</h2>
+      <div class="Importance-content-container">
+        <div class="Importance-content">
+          <h3>	&#8594; The costs of cyber security breaches are rising.</h3>
+          <p>Organisations that suffer cyber security breaches may face significant fines. 
+             There are also non-financial costs to be considered, like reputational damage.</p>
+        </div>
+        <div class="Importance-content">
+          <h3>	&#8594; Cyber attacks are increasingly sophisticated.</h3>
+          <p>Cyber attacks continue to grow in sophistication, with attackers using an ever-expanding variety of tactics.
+             These include social engineering, malware and ransomware.</p>
+        </div>
+        <div class="Importance-content">
+          <h3>	&#8594; Cyber security is a critical, board-level issue.</h3>
+          <p>New regulations and reporting requirements make cyber security risk oversight a challenge.
+             The board needs assurance from management that its cyber risk strategies will reduce
+             the risk of attacks and limit financial and operational impacts.</p>
+        </div>
+        <div class="Importance-content">
+          <h3>	&#8594; Cyber crime is a big business.</h3>
+          <p>According to a study by McAfee and the CSIS, based on data collected by Vanson Bourne,
+             the world economy loses more than $1 trillion each year due to cybercrime. Political, ethical,
+             and social incentives can also drive attackers.</p>
+        </div>
+      </div>
+    </div>
+
+    <ul><!--creating unordered lists-->
+      <h3>Top CyberSecurity Websites</h3>
+      <li>
+        <h4>Pentester Academy</h4>
+        <img class="websiteimage" src="FiInr8PX0AEVvTr.jpg">
+        <p><a href="https://www.pentesteracademy.com/" target="_blank">Pentester Academy</a> offers excellent courses at an even better price.
+           Students have access to dozens of interactive labs and courses on broad subjects.
+           Many cybersecurity training programs are narrowly focused,
+           but Pentester Academy exposes students to a broad array of technical cybersecurity courses online.</p>
+      </li>
+      <li>
+        <h4>TryHackMe</h4>
+        <img class="websiteimage" src="HA-TryHackMe.jpg">
+        <p><a href="https://tryhackme.com/r/about" target="_blank">TryHackMe</a> features content for people new to cybersecurity and covers a broad range of topics,
+           including training for offensive and defensive security.
+           TryHackMe also has Capture the Flag exercises with walk-through write-ups by contributing users that let members see how to approach
+           and solve problems</p>
+      </li>
+      <li>
+        <h4>SANS Cyber Aces Online</h4>
+        <img class="websiteimage" src="sans-institute.jpg">
+        <p><a href="https://www.sans.org/cyberaces/" target="_blank">SANS Cyber Aces Online</a> operates as a philanthropic organization operated by SANS Institute,
+           which donates the training courses. SANS manages one of the highest quality security training organizations in the world,
+           so Cyber Aces can unlock the security basics for professors, teachers, businesspeople and security pros who want to learn more
+           about security for free</p>
+      </li>
+    </ul>
+
+    <table>
+      <caption>My Favourite Books</caption>
+      <tr>
+        <th>Name</th>
+        <th>Author</th>
+        <th>Rating</th>
+      </tr>
+      <tr>
+        <td>The Art Of Invisibility</td>
+        <td>Kevin Mitnick</td>
+        <td>4.5</td>
+      </tr>
+      <tr>
+        <td>Blue Team Handbook: Incident Response Edition</td>
+        <td>Don Murdoch</td>
+        <td>4.7</td>
+      </tr>
+    
+      <tr>
+        <td>Practical Malware Analysis</td>
+        <td>Andrew Honig and Michael Sikorski</td>
+        <td>4.8</td>
+      </tr>
+      <tr>
+        <td>Social Engineering: The Science of Human Hacking </td>
+        <td>Christopher Hadnagy</td>
+        <td>4.6</td>
+      </tr>
+    </table>
+
+    <iframe width="1457" height="528" src="https://www.youtube.com/embed/inWWhr5tnEA" title="Cyber Security In 7 Minutes | What Is Cyber Security: How It Works? | Cyber Security | Simplilearn" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <section>
+        <h1 class="Contact-us">Contact us</h1>
+        <form>
+          <div>
+            <p>Full name:</p>
+            <input class="input-item" type="text" name="full-name" autofocus required>
+          </div>
+          <div>
+            <p>Email:</p>
+            <input class="input-item" type="email" name="email">
+          </div>
+          <div>
+            <p>Gender:</p>
+            <input type="radio" name="male" value="male">
+            Male</input>
+            <input type="radio" name="female" value="female">
+            Female</input>
+            <input type="radio" name="other" value="other">
+            Other</input>
+          </div>
+          <div>
+            <p>Leave a message:</p>
+          </div>
+          <div>
+            <textarea class="input-item" name="area" rows="6" cols="25"></textarea>
+          </div>
+          <div>
+            <input id="term-check" type="checkbox" name="terms-conditions">I agree to accept terms
+             and conditions</input>
+          </div>
+          <div>
+            <input type="submit" value="Register">
+          </div>
+        </form>
+    </section>
+
+  </main>
+  <footer></footer>
+</body>
+</html>
