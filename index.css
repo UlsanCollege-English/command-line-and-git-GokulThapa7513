@@ -1,0 +1,111 @@
+body {
+  background-color: #F9F9F9;
+}
+h1 {
+  text-align: center;
+}
+h4 {
+  border-bottom: 1px solid rgb(194, 187, 187);/*for creating border only at the bottom of the h4 element*/
+
+}
+header {
+  display:flex;/*flex can be used to lay a collection of items in one direction*/
+  justify-content: space-between;/*This used to diplay flex elements with space between them*/
+  position: fixed;/*The fixed position fixes the position of an element in a website even when the page is scrolling*/
+  right:0;
+  left: 0;
+  top: 0;
+  height: 30px;
+  padding: 20px 30px;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(194, 187, 187);
+  border-bottom-style: solid;
+  background-color: white;
+  z-index: 100;/*elements with higher z-index will always appear on top of other elements*/
+}
+header:hover {
+  cursor: pointer;
+}
+.definition-section {
+  display: inline-block;
+  margin-left:10px;
+  margin-right:10px;
+  margin-top: 50px;
+  position: relative;
+  top: 0px;
+}
+.img-container {
+  position:relative;
+  top: 110px;
+  margin-bottom: 110px;
+  margin-left: 100px;
+  display: inline-block;
+}
+#mainimage {
+  width: 700px;
+}
+.Importance-section {
+  border-width: 1px;
+  border-color: rgb(194, 187, 187);
+  border-style: solid;
+  background-color: white;
+  margin: 20px 10px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.1);
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+.Importance-heading {
+  margin-left: 10px;
+}
+.Importance-content-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.Importance-content {
+  border-width: 1px;
+  border-color: rgb(194, 187, 187);
+  border-style: solid;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding: 20px 10px;
+}
+.websiteimage {
+  display:block;
+  width: 600px;
+}
+.Contact-us{
+  display: inline-block;
+text-align: center;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 600px; 
+
+      }
+td {
+    border: 1px solid black;
+    padding: 16px;
+    font-size: 24px;
+      }
+th {
+    border: 1px solid black;
+    font-size: 24px;
+    padding: 16px;
+      }
+caption {
+  font-weight: bold;
+  font-size: large;
+}
+table {
+  margin-bottom: 20px;
+}
+section {
+  display: inline-block;
+}
+iframe {
+  width: 100%;
+}
